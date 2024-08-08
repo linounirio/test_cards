@@ -1,0 +1,31 @@
+/*material do MDN - Conceitos básicos de grid layout*/
+
+/*mãos na massa: GRID CONTAINER*/
+ 
+/* #root {display: grid} /*funcionou*/
+
+.st-emotion-cache-czk5ss.e16jpq800{
+    visibility:hidden;
+}
+.stDeployButton{
+    visibility:hidden;
+}
+
+[data-testid='element-container'] {
+    display: flex;
+    justify-content: center; 
+    align-items:center;
+}
+[data-testid='stMetric'] {
+    background-color: #3939;
+    text-align: center;
+    font-size: medium; 
+    padding: 15px 0;
+}
+[data-testid='stMetricValue'] {
+    display:flex;
+    justify-content:center; 
+    align-items:center;
+}
+
+/*.e1f1d6gn1 {display: grid; grid-template-columns: 1fr 1fr}*/
